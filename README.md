@@ -1,3 +1,6 @@
+# Deployment
+[Bike Rentals Dashboard](https://bike-sharing-dashboard-nadiaadyuta.streamlit.app/)
+
 # Setup
     
     git clone https://github.com/nadiaadyuta/bike-sharing-streamlit.git
