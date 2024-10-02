@@ -10,8 +10,8 @@ import plotly.graph_objects as go
 # Load data
 @st.cache_data
 def load_data():
-    day_df = pd.read_csv('data/day_cleaned.csv')
-    hour_df = pd.read_csv('data/hour_cleaned.csv')
+    day_df = pd.read_csv('day_cleaned.csv')
+    hour_df = pd.read_csv('hour_cleaned.csv')
 
     day_df['date'] = pd.to_datetime(day_df['date'])
     hour_df['date'] = pd.to_datetime(hour_df['date'])
